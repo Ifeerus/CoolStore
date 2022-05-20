@@ -1,0 +1,532 @@
+/* MAIN PAGE */
+
+/* Heading section */
+
+.navbar {
+    background-color: #0f4c75;
+}
+
+.navbar-nav {
+    margin-left: 10px;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+    font-family: 'Bangers', cursive;
+    font-size: 2.5rem;
+}
+
+#heading {
+    background-color: #1b262c;
+    color: white;
+}
+
+.dog-img {
+    width: 75%;
+    margin-top: 20px;
+}
+
+.heading-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 5.5rem;
+    line-height: 1.5;
+    margin: 130px 0 0 130px;
+}
+
+.heading-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-decoration: none;
+    margin-left: 150px;
+    color: #BBE1FA;
+    padding: 0 5px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 0 #BBE1FA;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.heading-link:hover {
+    text-decoration: none;
+    box-shadow: inset 230px 0 0 0 #BBE1FA;
+    color: #0f4c75;
+}
+
+/* About Section */
+
+#about {
+    background-color: #0f4c75;
+    color: #BBE1FA;
+    padding: 100px 0;
+}
+
+.about-us-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 4.5rem;
+    margin: 10px 30px 80px 0;
+    text-align: right;
+    color: white;
+}
+
+.about-us-text {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.img-1 {
+    width: 25%;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.img-2 {
+    width: 51%;
+    position: relative;
+    margin: 200px 0 0 300px; 
+}
+
+/* Testimonials section */
+
+#testimonials {
+    background-color:#1b262c;
+    padding: 200px 0;
+    text-align: center;
+    color: #BBE1FA;
+}
+
+.testimonials-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 4.5rem;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.testomonial-text {
+    padding: 20px 200px;
+} 
+
+.testimonial-image {
+    width: 8%;
+    margin: 20px;
+}
+
+/* Press */
+#press {
+    background-color: #0f4c75;
+    text-align: center;
+    color: #BBE1FA;
+}
+
+.logo {
+    width: 8%;
+    margin:80px 60px 20px 60px;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #0f4c75;
+    color: #BBE1FA;
+    text-align: center;
+}
+
+#footer .row {
+    margin-top: 40px;
+}
+
+.footer-col-3,
+.footer-col-6 {
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-logo1 {
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 25px;
+}
+
+.footer-logo2 {
+    margin-bottom: 30px;
+    font-family: 'Bangers', cursive;
+}
+
+.payment {
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+
+.footer-title {
+    margin: 100px 0 30px 0;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+.links:hover {
+    text-decoration: none;
+    color: #BBE1FA ;
+}
+
+/* END OF MAIN PAGE */
+
+/* Products PAGE */
+
+#sales-products img{
+    width: 100%;
+    height: 450px;
+}
+
+.prod-pages {
+    padding: 50px 0 50px 0;
+    background-color: #1b262c;
+    text-align: center;
+}
+
+.products-page-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 0.5;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.sale-text {
+    background-color: rgb(239, 77, 77);
+    padding: 0 5px;
+    border-radius: 30px;
+}
+
+
+#men-products img{
+    width: 100%;
+    height: 450px;
+}
+
+#add-to-bag:active {
+    background-color: #BBE1FA;
+}
+
+#women-products img {
+    width: 100%;
+    height: 450px;
+}
+
+/* CART */
+li {
+    list-style-type: none;
+}
+
+.cart {
+    margin-right: 30px;
+    padding: 6px 25px 6px 5px;
+    border-radius: 10%;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.cart.active:hover {
+    cursor: pointer;
+    background-color: #0c3e60;
+}
+
+.cart_quantity {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #f5f5f5;
+    border-radius: 100%;
+    padding: 2px;
+    min-height: 16px;
+    min-width: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.cart-content {
+    cursor: default;
+    position: absolute;
+    z-index: 1;
+    margin-top: 10px;
+    right: 0;
+    top: 100%;
+    width: 490px;
+    background-color: #BBE1FA;
+    box-shadow: black;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.cart.active:hover .cart-content {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.cart-content_list {
+    max-height: 330px;
+    padding-left: 0;
+    overflow: scroll;
+}
+
+.cart-product {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    transition: background-color 0.3s;
+}
+
+.cart-product:hover {
+    background-color: #9bbdd4;
+}
+
+.cart-product_img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.cart-product_title {
+    max-width: 280px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0c3e60;
+}
+
+.cart-product_price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0c3e60;
+}
+
+.cart-product_delete {
+    margin-left: auto;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    background-image: url("../images/delete-button.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cart-content_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 20px;
+}
+
+.cart-content_fullPrice {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0c3e60;    
+}
+
+.fullPrice {
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0c3e60;
+}
+
+.cart-content_btn {
+    width: 150px;
+}
+
+/* END OF PRODUCTS PAGE*/
+
+/* ACCOUNT PAGE */
+
+.acc-page {
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f5f5f5;
+}
+
+.acc-logo1 {
+    color: #0f4c75;
+    font-size: 6rem;
+    margin-bottom: 5px;
+}
+
+.acc-logo2 {
+    color: #1b262c;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-family: 'Bangers', cursive;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+/* END OF ACCOUNT PAGE */
+
+
+/* MODAL CSS */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding: 20px 100px 20px 100px; /* Location of the box */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+  /* Modal Text */
+
+  .modal-description {
+    text-align: right;
+  }
+
+  .modal-text-header {
+      font-size: 3rem;
+      font-weight: bold;
+      margin: 40px 0 70px 0;
+  }
+
+  .modal-text {
+      font-size: 1.5rem;
+  }
+  
+  /* The Close Button */
+  #closeBtn {
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+  
+  #closeBtn:hover,
+  #closeBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/* Pone/Pad mode */
+
+@media (max-width: 1028px) {
+    /* Heading */
+    #heading {
+        text-align: center;
+    }
+
+    .heading-text , .heading-link {
+        margin: 55px;
+        font-size: 3rem;
+    }
+
+    .heading-link:hover {
+        text-decoration: none;
+        font-size: 3.3rem;
+        color: #BBE1FA;
+    }
+    /* About */
+
+    .about-us-title {
+        text-align: center;
+        padding-left: 20px;
+    }
+
+    .about-us-text {
+        text-align: center;
+        margin-left: 5px;
+    }
+
+    .img-1 {
+        width: 60%;
+        margin-left: 20px;
+    }
+
+    .img-2{
+        width: 60%;
+        margin: 100px 0 0 170px;
+        padding-bottom: 80px;
+    }
+
+    #testimonials {
+        padding: 50px 0 0 0;
+    }
+
+    .testomonial-text {
+        font-size: 1.5rem;
+        padding: 0 40px 50px 40px;
+    }
+
+    .testimonial-image {
+        width: 20%;
+    }
+
+    .logo {
+        width: 15%;
+        margin: 80px 10px 20px 0px;
+    }
+
+    .payment {
+        color: white;
+        font-size: 1.6rem;
+        padding-left: 5px;
+        margin-bottom: 10px;
+    }
+}
